@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, A light boat in the vast sea">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="A light boat in the vast sea">
+    <meta name="description" content="1、文章概述（泛读）1.1、文章信息IEEE TRANSACTIONS ON INTELLIGENT VEHICLES 	CCF-B
+1.2、文章介绍题目：基于区块链的车辆边缘计算网络中的协同计算卸载
+背景：多路边缘计算（multiacce">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | A light boat in the vast sea</title>
+    <title>A light boat in the vast sea</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -337,12 +339,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -387,7 +389,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    2.4k
                 </div>
                 
 
@@ -407,19 +409,99 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="1、文章概述（泛读）"><a href="#1、文章概述（泛读）" class="headerlink" title="1、文章概述（泛读）"></a><strong>1、文章概述（泛读）</strong></h1><h2 id="1-1、文章信息"><a href="#1-1、文章信息" class="headerlink" title="1.1、文章信息"></a><strong>1.1、文章信息</strong></h2><p>IEEE TRANSACTIONS ON INTELLIGENT VEHICLES 	CCF-B</p>
+<h2 id="1-2、文章介绍"><a href="#1-2、文章介绍" class="headerlink" title="1.2、文章介绍"></a><strong>1.2、文章介绍</strong></h2><p>题目：基于区块链的车辆边缘计算网络中的协同计算卸载</p>
+<p>背景：多路边缘计算（multiaccess edge computing）——将计算和存储能力迁移到网络的边缘节点上（edge nodes）</p>
+<p>大概思想就是通过MEC发送的全局信息将部分任务卸载到相邻车辆以减少MEC压力，减少计算资源闲置造成的浪费。如下图所示：</p>
+<p>![image-20240314143533995](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143533995.png)</p>
+<p>存在问题：</p>
+<ul>
+<li>没有为车辆开发出方法来准确<strong>确定</strong>计算能力和服务提供商的轨迹，以用于卸载计算卸载</li>
+<li>卸载中，传输安全性和车辆隐私难以保障</li>
+</ul>
+<p>所以，在这种情况下区块链技术（一种去中心化的数据存储技术）引起了车辆网络的极大关注，他的特点是分布式处理、多方共识和防篡改功能。</p>
+<p>具体来说，前文所提到的安全挑战，通过区块链技术可以完美解决。</p>
+<p>服务器车辆：可以通过协作计算卸载向用户车辆提供计算服务</p>
+<p>作者引入资源丰富的车辆作为边缘服务器面临两个挑战：</p>
+<ul>
+<li>服务器车辆的可信信息共享</li>
+<li>任务卸载到服务器车辆和路边服务器的策略评估</li>
+</ul>
+<p>随后提出了一种新颖的基于区块链的车载MEC网络数据共享架构</p>
+<p><strong>本文的主要贡献如下：</strong></p>
+<ul>
+<li>提出了一种用户车辆与服务器车辆之间的安全信息共享机制以及基于区块链技术的车辆协同计算方法，以确保安全和准确信息获取</li>
+<li>在基于区块链的数据共享架构中，提出了一种结合了服务证明和PBFT的共识机制，用来实现MEC网络之间的数据同步并防止恶意攻击</li>
+<li>为了帮助用户车辆做出正确的计算卸载决策，提出了一个卸载博弈模型的合作计算卸载场景</li>
+</ul>
+<h1 id="2、相关工作"><a href="#2、相关工作" class="headerlink" title="2、相关工作"></a><strong>2、相关工作</strong></h1><ol>
+<li>方法：云辅助车载MEC计算卸载和资源分配问题（卸载任务可以在路边MEC服务器上 或 使用路边单元卸载到云服务器上）</li>
+<li>在变化信道状态和可用带宽不稳定环境中建模任务下载，最小化能量消耗、分配带宽及传输延迟（采用基于深度强化学习的自适应计算卸载方法来解决这个问题）</li>
+<li>联合建模车辆卸载和路边MEC服务器卸载均衡，提出一种服务器选择和卸载的联合优化算法</li>
+<li>在作者前述工作中， 提出了一个用于大量车辆的计算卸载游戏，减少路边MEC服务器的计算负担，设计了一个分布式最佳响应办法，保证了车辆卸载策略收敛的纳什均衡</li>
+</ol>
+<h1 id="3、基于区块链的数据共享"><a href="#3、基于区块链的数据共享" class="headerlink" title="3、基于区块链的数据共享"></a><strong>3、基于区块链的数据共享</strong></h1><h2 id="3-1、方案概述"><a href="#3-1、方案概述" class="headerlink" title="3.1、方案概述"></a><strong>3.1、方案概述</strong></h2><p>MEC服务器利用区块链实现数据共享和同步，在此场景下，为了扩大服务器车辆的服务容量传输范围，放置恶意节点攻击，采用区块链技术将闲置服务器车辆的信息共享给用户车辆，为用户车辆提供资源。</p>
+<h2 id="3-2、基于安全数据共享方案的协作计算卸载"><a href="#3-2、基于安全数据共享方案的协作计算卸载" class="headerlink" title="3.2、基于安全数据共享方案的协作计算卸载"></a>3.2、基于安全数据共享方案的协作计算卸载</h2><p>路边MEC服务器收集服务器车辆的信息共享到区块链上，并将此信息广播到覆盖区域内的所有车辆，然后用户车辆根据接收到的邻近服务器车辆和路边MEC服务器的信息做出博弈决策。</p>
+<p>![image-20240314143553736](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143553736.png)</p>
+<p>步骤如下：</p>
+<p>1、服务器车辆将其服务能力上传到路边MEC服务器上。服务器车辆V_j</p>
+<p>![image-20240314143604384](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143604384.png)</p>
+<p>2、路边MEC服务器收集车辆服务能力信息。	收到V发来的加密信息后，进行私钥解密并验证后进行存储，存储格式如下：</p>
+<p>![image-20240314143615781](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143615781.png)</p>
+<p>3、MEC服务器向区块链增加服务器车辆的服务能力记录</p>
+<p>![image-20240314143624851](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143624851.png)</p>
+<p>具体过程为：</p>
+<ul>
+<li>广播：MEC收到后，将信息广播给其他MEC</li>
+<li>选择：选择一个有冗余计算能力的MEC节点作为主节点生成区块添加到当前链中</li>
+<li>预准备：每个节点确定自己是否是主节点。如果它是被选中的领导者，它会将生成的区块和验证结果作为预准备消息广播给区块链网络中的其他MEC服务器。</li>
+<li>准备：接收预准备信息后，所有的MEC服务器确定leader身份和区块链信息有效性，然后向网络中广播确认结果</li>
+<li>提交：每个MEC服务器收到其他节点发送的准备消息后，将这些消息沿着自己的验证结果一起决定是否成功生成区块链</li>
+<li>回复：确认每个节点的提交消息并将共识结果发送给 领导者</li>
+<li>存储：主节点接收各MEC服务器共识结果，并将最新的区块发送给系统中的所有MEC服务器进行数据共享和存储</li>
+</ul>
+<p>4、路边MEC服务器向覆盖区域内所有车辆用户发送该区块的服务能力信息</p>
+<p>5、用户车辆基于MEC服务器和相邻服务器车辆的服务能力做出卸载决策</p>
+<p>6、服务器车辆上传正在进行的业务信息，MEC服务器更新服务区块链</p>
+<p>7、用户车辆评估服务的质量，并且MEC服务器基于该评估动态地对服务定价</p>
+<h2 id="3-3、安全性分析"><a href="#3-3、安全性分析" class="headerlink" title="3.3、安全性分析"></a><strong>3.3、安全性分析</strong></h2><p>恶意车辆信息欺骗</p>
+<p>恶意评价用户车辆</p>
+<p>MEC服务器的伪块生成和多数攻击</p>
+<p>MEC服务器的数据篡改</p>
+<h1 id="4、基于博弈论的协作计算卸载"><a href="#4、基于博弈论的协作计算卸载" class="headerlink" title="4、基于博弈论的协作计算卸载"></a><strong>4、基于博弈论的协作计算卸载</strong></h1><p>本文主要问题是如何在基于区块链的车辆边缘计算网络中实现分布式最优卸载决策，为此，提出了一种基于博弈的协同计算卸载算法</p>
+<h2 id="4-1、协同计算卸载模型"><a href="#4-1、协同计算卸载模型" class="headerlink" title="4.1、协同计算卸载模型"></a><strong>4.1、协同计算卸载模型</strong></h2><p>用户将任务代码、输入数据和最后期限发送到MEC服务器或服务器车辆。</p>
+<ul>
+<li>需要卸载的用户车辆V的应用模型表示为三元组：![image-20240314143638925](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143638925.png)</li>
+</ul>
+<p>L	代表要卸载的应用输入数据大小</p>
+<p>α 	代表计算复杂度——处理应用程序中1位数据所需的CPU周期数</p>
+<p>t  	代表最大可容忍执行时间</p>
+<h3 id="4-1-1、通信模型"><a href="#4-1-1、通信模型" class="headerlink" title="4.1.1、通信模型"></a><strong>4.1.1、通信模型</strong></h3><p>用户车辆V_i和MEC服务器之间的卸载请求和返回结果传输速率表示为：</p>
+<p>![image-20240314143659857](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143659857.png)</p>
+<p>W和d	分别表示用户车辆和MEC服务器之间的带宽和距离</p>
+<p>N	代表高斯白色噪声功率，N取决于带宽，因为在中国V2V和V2I的带宽是恒定为10MHz</p>
+<p>作者考虑使用LTE-V2X实现通信，其通过正交频分复用（OFDM）的多址方法实现数据传输。</p>
+<p>类似的，用户车辆V_i和服务器车辆V_j之间的卸载请求和返回结果传输速率表示为：</p>
+<p>![image-20240314143712164](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143712164.png)</p>
+<p>P代表服务器车辆的传输速率</p>
+<h3 id="4-1-2、计算延迟模型"><a href="#4-1-2、计算延迟模型" class="headerlink" title="4.1.2、计算延迟模型"></a><strong>4.1.2、计算延迟模型</strong></h3><p>将任务卸载到MEC服务器和服务车辆上的计算延迟可表示为：</p>
+<p>![image-20240314143731161](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143731161.png)</p>
+<p>![image-20240314143737750](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143737750.png)</p>
+<p>基于此，用户车辆可以量化V2M和V2V的效用并决定是否将任务卸载到MEC服务器或服务器车辆</p>
+<h2 id="4-2、协同计算卸载博弈"><a href="#4-2、协同计算卸载博弈" class="headerlink" title="4.2、协同计算卸载博弈"></a><strong>4.2、协同计算卸载博弈</strong></h2><p>计算卸载的博弈模型：</p>
+<p>![image-20240314143754820](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143754820.png)</p>
+<p>N表示MEC服务器覆盖下的所有车辆集合</p>
+<p>p∈[0,1]  是用户车辆v的混合卸载策略，如果p靠近1，vi将会以更大概率将任务卸载到MEC服务器</p>
+<p>u 是v可以从收益函数的博弈中获得的收益</p>
+<p>首先，使用任务执行的延迟表征用户车辆在协同计算卸载中的效用，但在实际中，只要任务延迟不超过其最大可容忍执行时间，用户车辆就可以收益于任务成功执行。</p>
+<p>基于最小化执行延迟也会使用户车辆激烈争夺边缘服务器资源，导致一些等待时间较长的任务超时，因此作者以二次函数的形式构造了值函数，并使用参数动态调节值与延迟曲线：</p>
+<p>![image-20240314143807949](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143807949.png)</p>
+<p>其中，t是V2M或者V2V的卸载总延迟</p>
+<p>如图4看出，当δ较大时任务在较低延迟时到达最大值</p>
+<p>![image-20240314143817889](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143817889.png)</p>
+<p>通过value函数表示不同计算卸载策略的预期效用</p>
+<p>![image-20240314143831376](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143831376.png)</p>
+<h2 id="4-3、分布式计算卸载解决方案"><a href="#4-3、分布式计算卸载解决方案" class="headerlink" title="4.3、分布式计算卸载解决方案"></a><strong>4.3、分布式计算卸载解决方案</strong></h2><p>![image-20240314143841280](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314143841280.png)</p>
 
                 
             </div>
@@ -446,7 +528,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://chenyuancqu.github.io/2024/03/14/hello-world/">https://chenyuancqu.github.io/2024/03/14/hello-world/</a>
+                    <a href="https://chenyuancqu.github.io/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/">https://chenyuancqu.github.io/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -564,13 +646,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/03/14/article-title/">
+                <a href="/2024/03/14/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">article title</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -601,7 +683,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/">
+                <a href="/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/">
                     <div class="card-image">
                         
                         

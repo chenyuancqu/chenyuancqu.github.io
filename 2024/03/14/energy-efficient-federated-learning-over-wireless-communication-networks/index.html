@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, A light boat in the vast sea">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="A light boat in the vast sea">
+    <meta name="description" content="背景：
+在未来的无线系统中，由于隐私限制和数据传输的通信资源有限，所有无线设备将其收集的所有数据传输到数据中心是不切实际的，该数据中心可以使用收集的数据来实现数据分析和推断的集中式机器学习算法 [2]-[7]。为此，需要分布式学习框架，以使">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | A light boat in the vast sea</title>
+    <title>A light boat in the vast sea</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -337,12 +338,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -387,7 +388,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    884
                 </div>
                 
 
@@ -407,19 +408,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <p>背景：</p>
+<p>在未来的无线系统中，由于隐私限制和数据传输的通信资源有限，所有无线设备将其收集的所有数据传输到数据中心是不切实际的，该数据中心可以使用收集的数据来实现数据分析和推断的集中式机器学习算法 [2]-[7]。为此，需要分布式学习框架，以使无线设备能够协作构建共享学习模型，并在本地训练其收集的数据。</p>
+<p>那目前最有前途的分布式学习算法之一是联邦学习框架。在FL中，无线设备可以通过仅将本地学习模型上传到基站 (BS) 而不是共享其全部训练数据来协同执行学习任务 [27]。</p>
+<p>要通过无线网络实现FL，无线设备必须通过无线链路 [29] 传输其本地训练结果，这可能会由于有限的无线资源 (例如时间和带宽) 而影响FL的性能。此外，无线设备的能量有限是部署FL的关键挑战。实际上，由于这些资源限制，有必要优化FL实施的能源效率。</p>
+<p><strong>本文的主要贡献是针对无线通信网络上的FL的新型节能计算和传输资源分配方案。我们的主要贡献包括:</strong></p>
+<ul>
+<li>我们研究了在无线通信网络上FL算法的性能，在这种情况下，每个用户在给定的学习精度下本地计算其FL模型，并且BS向所有用户广播聚合的FL模型。对于所考虑的FL算法，我们首先推导收敛速度。</li>
+<li>我们制定了一个联合计算和传输优化问题，旨在最大程度地减少本地计算和无线传输的总能耗。为了解决这个问题，提出了一种低复杂度的迭代算法。在该算法的每个步骤中，我们都针对时间分配，带宽分配，功率控制，计算频率和学习精度得出了新的封闭形式解决方案。</li>
+<li>为了获得总能量最小化问题的可行解，我们构造了FL完成时间最小化问题。我们从理论上证明了完成时间是学习精度的凸函数。基于这一理论发现，我们提出了一种基于二分的算法，以获得FL完成时间最小化的最优解。</li>
+<li>为了获得总能量最小化问题的可行解，我们构造了FL完成时间最小化问题。我们从理论上证明了完成时间是学习精度的凸函数。基于这一理论发现，我们提出了一种基于二分的算法，以获得FL完成时间最小化的最优解。</li>
+</ul>
+<p>![image-20240314142452938](/Users/chenyuan/Library/Application Support/typora-user-images/image-20240314142452938.png)</p>
+<p>1、系统模型</p>
+<p>这是一个蜂窝网络，该网络由一个服务于K个用户的BS组成，每个用户K都有一个带有DK数据样本的本地数据集DK。BS和所有用户通过无线网络协作执行联邦学习算法以进行数据分析和推断。最后呢，由每个用户的数据集训练的FL模型称为本地FL模型，而由BS使用来自所有用户的本地FL模型输入生成的FL模型称为全局FL模型。</p>
+<p>（本地FL模型和全局FL模型的区别？）</p>
 
                 
             </div>
@@ -446,7 +449,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://chenyuancqu.github.io/2024/03/14/hello-world/">https://chenyuancqu.github.io/2024/03/14/hello-world/</a>
+                    <a href="https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/">https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -564,13 +567,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/03/14/article-title/">
+                <a href="/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">article title</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -601,7 +604,7 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/">
+                <a href="/2024/03/14/bian-yuan-ji-suan-zhong-shi-yong-duo-zhi-neng-ti-drl-jin-xing-de-ji-suan-xie-zai-suan-fa/">
                     <div class="card-image">
                         
                         

@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, A light boat in the vast sea">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="A light boat in the vast sea">
+    <meta name="description" content="1、文章信息：IEEE TRANSACTIONS ON MOBILE COMPUTING，CCF-A
+2、文章概述2.1、文章思想本文考虑了一个具有AP和多个WD的无线供电MEC网络，如图所示：
+编辑
+每个WD遵循二进制卸载策略（即要么全部">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | A light boat in the vast sea</title>
+    <title>A light boat in the vast sea</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -337,12 +340,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -387,7 +390,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    2.5k
                 </div>
                 
 
@@ -407,19 +410,92 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="1、文章信息："><a href="#1、文章信息：" class="headerlink" title="1、文章信息："></a>1、文章信息：</h1><p>IEEE TRANSACTIONS ON MOBILE COMPUTING，CCF-A</p>
+<h1 id="2、文章概述"><a href="#2、文章概述" class="headerlink" title="2、文章概述"></a>2、文章概述</h1><h2 id="2-1、文章思想"><a href="#2-1、文章思想" class="headerlink" title="2.1、文章思想"></a>2.1、文章思想</h2><p>本文考虑了一个具有AP和多个WD的无线供电MEC网络，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/56ce613c2e0f4c56a87cb5302325eebc.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>每个WD遵循二进制卸载策略（即要么全部卸载要么全部本地执行）。本文的目标是联合优化每个WD的任务卸载决策、WPT（无线供电传输）和任务卸载之间的传输时间分配，以及根据时变的无线信道进行多个WD之间的时间分配。</p>
+<p>基于此，作者提出了一个在线卸载框架（DROO），以最大化所有WD计算速率的加权和（单位时间内处理的比特数）。与现有整数规划和基于学习的方法相比有以下贡献：</p>
+<ul>
+<li>提出的DROO框架学习过去的卸载策略，在时变无线信道条件下自动更改策略。（完全消除了解决MIP问题的必要，避免了随着数据量增多而造成的计算复杂度爆炸）【为什么具有高复杂性】</li>
+<li>与深度学习方法不同，DROO将原始问题分解为卸载策略子问题与资源分配子问题，不需要离散化的信道增益，避免了维数灾难问题</li>
+<li>为了高效地生成卸载动作，设计了一种新颖的保序动作生成方法。具体而言，它只需要从少量候选动作中进行选择，因此在具有高维动作空间的大规模网络中具有计算可行性和高效性。同时，它还提供了生成动作的高多样性，并且比传统的动作生成技术具有更好的收敛性能。</li>
+<li>开发了一种自适应程序，能够动态地调整DROO算法的参数。具体而言，它逐渐减少在一个时间段内需要解决的凸资源分配子问题的数量。这有效地降低了计算复杂度，同时不会影响解决方案的质量。</li>
+</ul>
+<h2 id="2-2、related-work"><a href="#2-2、related-work" class="headerlink" title="2.2、related work"></a>2.2、related work</h2><p>在DQN方法中，作者基于离散化的信道增益作为输入向量，因此在需要高信道量化精度时遭受维数灾难和缓慢收敛。</p>
+<p>此外，在每次迭代过程中的决策穷举性质，DQN不适合处理高维动作。</p>
+<h1 id="3、主体部分"><a href="#3、主体部分" class="headerlink" title="3、主体部分"></a>3、主体部分</h1><h2 id="3-1、系统建模"><a href="#3-1、系统建模" class="headerlink" title="3.1、系统建模"></a>3.1、系统建模</h2><p>1）假设WPT和communication是在同一频段执行，在每个设备处实现TDD（时分复用电路）避免WPT与communication之间相互干扰。</p>
+<p>2）假设信道互逆（即上行链路与下行链路的信道增益是相同的）</p>
+<p>3）系统时间被划分为连续的等长时间帧T（设置为小于信道相干时间（信道保持稳定的最长时间））</p>
+<p><img src="https://img-blog.csdnimg.cn/a725ff0a70974d65b1354498ef0d5413.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>标记的时间帧处AP与第i个WD之间的无线信道增益（用于评估信号传输的质量和通信速率）</p>
+<p><img src="https://img-blog.csdnimg.cn/777c3378940c40bfa524a15c53b6d785.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>用于WPT的时间，a ∈[0,1] ，其中AP广播RF能量以供WD收集</p>
+<p><img src="https://img-blog.csdnimg.cn/87a7f0ca061f47c6b4e913180174f1a9.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>表示第i个WD收获的能量值，其中μ表示能量收集效率，P表示AP发射功率</p>
+<p><img src="https://img-blog.csdnimg.cn/6dc436abc3294382bc57e3ab3f4f24fe.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>第i个WD的权重，权重越大，分配给WD的计算速率越大</p>
+<p><img src="https://img-blog.csdnimg.cn/f25216a32058490db29276553fe73036.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>代表卸载策略，枚举值（0，1），0代表本地执行； 1代表卸载到AP</p>
+<h2 id="3-2、本地计算模型"><a href="#3-2、本地计算模型" class="headerlink" title="3.2、本地计算模型"></a>3.2、本地计算模型</h2><p>本地计算模式下的WD可以同时收集能量和执行计算任务。</p>
+<p><img src="https://img-blog.csdnimg.cn/21417842856d45729fe6384e98455764.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>处理器的计算速度（每秒的周期数）</p>
+<p><img src="https://img-blog.csdnimg.cn/b3d50fdcd2684d91a4ccb0315174579d.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>表示代表计算时间</p>
+<p><img src="https://img-blog.csdnimg.cn/b0dbea4aba894f5581e2337a2707204b.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>本地计算速率（以比特每秒为单位）</p>
+<p>T：等长时间帧，φ表示处理一位任务数据所需的周期数</p>
+<h2 id="3-3、边缘计算模型"><a href="#3-3、边缘计算模型" class="headerlink" title="3.3、边缘计算模型"></a>3.3、边缘计算模型</h2><p>由于TDD约束，处于卸载模式的WD只能在收获能量之后将其任务卸载到AP。</p>
+<p>要下载到WD的计算反馈比卸载到AP的数据短得多，所以完全忽略AP在任务计算和下载上花费的时间。</p>
+<p><img src="https://img-blog.csdnimg.cn/4203861f064d4ccd9a4b280af7977e3a.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>第i个WD的卸载时间，前者取值[0，1]</p>
+<p>为了最大化计算速率，执行任务卸载的WD会耗尽其收获能量来执行任务卸载，则计算速率等于其数据卸载能力：</p>
+<p><img src="https://img-blog.csdnimg.cn/c7ecdd0cb3a144f38c8f2555cfcece1e.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>B代表通信带宽、N代表接收机噪声功率。</p>
+<h2 id="3-4、问题表述"><a href="#3-4、问题表述" class="headerlink" title="3.4、问题表述"></a>3.4、问题表述</h2><p>在标记的时间帧中无线供电MEC网络的加权和计算速率被表示为：</p>
+<p><img src="https://img-blog.csdnimg.cn/ab099283a1b24790b9823a7f16d5bf50.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>则本文目的便是：</p>
+<p><img src="https://img-blog.csdnimg.cn/4650aa37608346d18bbc7b4c4e6a88fc.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>可见P1是一个混合整数规划非凸问题，但是一旦给定x，则P1可以简化为以下凸问题：</p>
+<p><img src="https://img-blog.csdnimg.cn/ae2caaecf9d243e6a4d3e25e8015d65c.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>则将问题P1分解为两个子问题：</p>
+<ol>
+<li>卸载决策：需要在2的N次方个可能的卸载决策中搜索到较好的卸载决策x</li>
+<li>资源分配：关于凸问题P2的最优时间分配可以高效解决，例如，在相关对偶变量上使用一位二分搜索，其时间复杂度在O（N）内</li>
+</ol>
+<h1 id="4、DROO算法"><a href="#4、DROO算法" class="headerlink" title="4、DROO算法"></a>4、DROO算法</h1><p><img src="https://img-blog.csdnimg.cn/40b45a40bf3045fe90ee1bf9d907cade.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<h2 id="4-1、算法概述"><a href="#4-1、算法概述" class="headerlink" title="4.1、算法概述"></a>4.1、算法概述</h2><p>旨在设计一个卸载策略函数Π，一旦在每个时间帧的开始给定信道增益h，就可以快速生成一个最优卸载策略x</p>
+<p><img src="https://img-blog.csdnimg.cn/7508594214574673b04f94835087f9d1.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>所提出的DROO算法会从经验中逐渐学习这样的策略函数Π</p>
+<p> <img src="https://img-blog.csdnimg.cn/475a815d191a4817b3e37151a8544fa5.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>算法结构图如图所示，由交替的两阶段组成：Offloading Action Generation 和 Offloading Policy Update</p>
+<p>卸载动作的生成是基于DNN的使用，该DNN将信道增益h作为输入，基于卸载策略Π（由θ参数化）输出卸载动作x</p>
+<p>猜测：使用DNN生成卸载策略，然后将卸载策略量化为K个离散的卸载决策选项，使用二进制编码表示每个选项的状态。 然后选取所选动作致使P2问题最大化的x，基于input的h组成训练样本加入经验回访池中。</p>
+<p>卸载策略更新：从经验回放池中随机选取batch个随机样本训练DNN，DNN将其参数更新。以此类推以更新策略</p>
+<h2 id="4-2、Offloading-Action-Generation（没看懂）"><a href="#4-2、Offloading-Action-Generation（没看懂）" class="headerlink" title="4.2、Offloading Action Generation（没看懂）"></a>4.2、Offloading Action Generation（没看懂）</h2><p>在第一个时间帧时，DNN的参数θ被随机初始化（零均值正态分布）。</p>
+<ul>
+<li>那么DNN首先输出一个宽松计算卸载动作x，该动作是由参数化函数表示的</li>
+</ul>
+<p>逼近定理：如果在神经元处应用适当的激活函数，则具有足够隐藏神经元的一个隐藏层足以逼近任何函数映射f</p>
+<ul>
+<li>通过量化函数将DNN输出的动作x量化为K个二进制卸载动作（K是一个设计参数），量化函数gk如下：</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/d07d857aaacc453a9e65efa86e7423e0.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<p>此处，K可以是1到2的N次方中的任意整数，越大的K可以获得越好的解质量但是会有更大的计算复杂度，这里作者提出了一种保序量化方法用来平衡质量与复杂度之间的关系。</p>
+<p>其基本思想是：量化期间保持排序。</p>
+<h2 id="4-3、卸载策略更新"><a href="#4-3、卸载策略更新" class="headerlink" title="4.3、卸载策略更新"></a>4.3、卸载策略更新</h2><p>此处使用经验重放技术</p>
+<p>（参考文献如下：（可重用）</p>
+<p>Human-level control through deep reinforce-ment learning</p>
+<p>Reinforcement learning for robots using neuralnetworks）</p>
+<p>DNN的参数使用Adam算法来更新，以减少平均交叉熵损失</p>
+<p>DNN迭代的从最佳状态动作对中学习，随着时间推移产生更好的状态动作对。同时在有限存储器空间约束情况下（状态动作对会不断使用FIFO策略更新），DNN仅从最近最优生成的的数据样本中学习。这种闭环强化学习机制不断改进其卸载策略，直到收敛。</p>
+<p><img src="https://img-blog.csdnimg.cn/f70fc5a93b944dc5a91c46903113a902.png" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动">编辑</p>
+<h2 id="4-4、K的自适应设置"><a href="#4-4、K的自适应设置" class="headerlink" title="4.4、K的自适应设置"></a>4.4、K的自适应设置</h2><p>DROO算法设计的优势在于其消除了求解困难MIP问题的需要，从而降低了计算复杂度。在该算法中其主要计算复杂度在于求解P2问题以获取K个动作中最佳卸载动作。</p>
+<p>这里越大的K会导致在每个时间帧中更好的卸载决策，也因此会有更好的卸载策略，所以设置K的时候会有一个基本的计算复杂度——性能之间的权衡。</p>
+<p>作者提出了一个自适应过程，自动调整由保序量化方法产生的量化动作的数量。</p>
+<p>（未细看）</p>
+<h1 id="5、实验结果"><a href="#5、实验结果" class="headerlink" title="5、实验结果"></a>5、实验结果</h1><h2 id="5-1、收敛性能"><a href="#5-1、收敛性能" class="headerlink" title="5.1、收敛性能"></a>5.1、收敛性能</h2><h2 id="5-2、更新间隔的影响"><a href="#5-2、更新间隔的影响" class="headerlink" title="5.2、更新间隔的影响"></a>5.2、更新间隔的影响</h2><h2 id="5-3、计算速率性能"><a href="#5-3、计算速率性能" class="headerlink" title="5.3、计算速率性能"></a>5.3、计算速率性能</h2><h2 id="5-4、执行延迟"><a href="#5-4、执行延迟" class="headerlink" title="5.4、执行延迟"></a>5.4、执行延迟</h2><h1 id="6、结论"><a href="#6、结论" class="headerlink" title="6、结论"></a>6、结论</h1><p>本文中作者基于深度强化学习提出了在线卸载算法DROO，以最大限度地提高无线供电MEC网络中的加权和计算率与二进制计算卸载。该算法从过去卸载经验中学习，通过强化学习改善其由DNN产生的卸载行为。并通过保序量化方法和自适应参数设置方法加速算法收敛。其提出的方法与传统方法相比，避免了解决MIP问题的需要，仿真结果表明DROO实现了接近最优的性能（和现有的基准方法相比），但却减少了CPU执行延迟超过一个数量级，使得在无线衰落环境中无线供电MEC系统的实时性变得真正可行。</p>
+<p>本文的挑战在于，该DROO框架适用于一般MEC网络，当对象是移动的WD时将会导致DROO更难收敛。猜测原因在于WD的移动性造成信号不稳定、影响卸载到服务器的时间？</p>
+<p>未来笔者希望DROO可以用来解决设计耦合整数决策和连续资源分配问题的无线通信和网络中的各种MIP问题，例如，D2D通信中的模式选择、蜂窝系统中的用户到基站关联、无线传感器网络中的路由以及无线网络中的缓存放置。</p>
 
                 
             </div>
@@ -446,7 +522,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://chenyuancqu.github.io/2024/03/14/hello-world/">https://chenyuancqu.github.io/2024/03/14/hello-world/</a>
+                    <a href="https://chenyuancqu.github.io/2024/03/14/bian-yuan-ji-suan-xi-tong-xia-ji-yu-shen-du-xue-xi-de-ji-suan-xie-zai-suan-fa/">https://chenyuancqu.github.io/2024/03/14/bian-yuan-ji-suan-xi-tong-xia-ji-yu-shen-du-xue-xi-de-ji-suan-xie-zai-suan-fa/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -564,13 +640,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2024/03/14/article-title/">
+                <a href="/2024/03/14/bian-yuan-ji-suan-zhong-shi-yong-duo-zhi-neng-ti-drl-jin-xing-de-ji-suan-xie-zai-suan-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">article title</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -598,10 +674,10 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2024/03/14/cooperative-computation-offloading-in-blockchain-based-vec/">
+                <a href="/2024/03/14/bian-yuan-ji-suan-xi-tong-xia-ji-yu-shen-du-xue-xi-de-ji-suan-xie-zai-suan-fa/">
                     <div class="card-image">
                         
                         
@@ -628,6 +704,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
