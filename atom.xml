@@ -30,18 +30,19 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://chenyuancqu.github.io/2024/03/14/hello-world/"/>
-    <id>https://chenyuancqu.github.io/2024/03/14/hello-world/</id>
+    <title></title>
+    <link href="https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/"/>
+    <id>https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/</id>
     <published>2024-03-14T03:05:38.026Z</published>
-    <updated>2024-03-14T03:05:38.026Z</updated>
+    <updated>2024-03-14T06:25:24.587Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;背景：&lt;/p&gt;
+&lt;p&gt;在未来的无线系统中，由于隐私限制和数据传输的通信资源有限，所有无线设备将其收集的所有数据传输到数据中心是不切实际的，该数据中心可以使用收集的数据来实现数据分析和推断的集中式机器学习算法</summary>
         
       
     
@@ -72,19 +73,18 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/"/>
-    <id>https://chenyuancqu.github.io/2024/03/14/energy-efficient-federated-learning-over-wireless-communication-networks/</id>
+    <title>Hello World</title>
+    <link href="https://chenyuancqu.github.io/2024/03/14/hello-world/"/>
+    <id>https://chenyuancqu.github.io/2024/03/14/hello-world/</id>
     <published>2024-03-14T03:05:38.026Z</published>
-    <updated>2024-03-14T06:25:24.587Z</updated>
+    <updated>2024-03-14T03:05:38.026Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;背景：&lt;/p&gt;
-&lt;p&gt;在未来的无线系统中，由于隐私限制和数据传输的通信资源有限，所有无线设备将其收集的所有数据传输到数据中心是不切实际的，该数据中心可以使用收集的数据来实现数据分析和推断的集中式机器学习算法</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
